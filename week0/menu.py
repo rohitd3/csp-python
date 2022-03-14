@@ -1,6 +1,7 @@
 # menu.py - function style menu
 # Imports typically listed at top
 # each import enables us to use logic that has been abstracted to other files and folders
+import americanflag
 import keypad
 import swap
 import pattern
@@ -12,20 +13,22 @@ import tree
 # 1. file names will be run by exec(open("filename.py").read())
 # 2. function references will be executed directly file.function()
 main_menu = [
+    ["American Flag", americanflag.flagfunc],
     ["Swap", swap.test_swapNum],
     ["Keypad", keypad.format_tester],
-    ["Tree", tree.treefunc]
+    ["Tree", tree.treefunc],
+    ["Pattern", pattern.patternfunc],
 ]
 
 # Submenu list of [Prompt, Action]
 # Works similarly to main_menu
-patterns_sub_menu = [
-    ["Pattern", pattern.patternfunc],
-]
+# patterns_sub_menu = [
+#     ["Pattern", pattern.patternfunc],
+# ]
 
 
 # Menu banner is typically defined by menu owner
-border = "=" * 25
+border = "=" * 10
 banner = f"\n{border}\nPlease Select An Option\n{border}"
 
 # def menu
@@ -37,18 +40,12 @@ banner = f"\n{border}\nPlease Select An Option\n{border}"
 def menu():
     title = "Function Menu" + banner
     menu_list = main_menu.copy()
-    menu_list.append(["Pattern", patterns_submenu])
+    # menu_list.append(["Pattern", patterns_submenu])
     buildMenu(title, menu_list)
 
 # def submenu
 # using sub menu list above:
 # sub_menu works similarly to menu()
-
-
-def patterns_submenu():
-    title = "Function Submenu" + banner
-    buildMenu(title, patterns_sub_menu)
-
 
 def buildMenu(banner, options):
     # header for menu

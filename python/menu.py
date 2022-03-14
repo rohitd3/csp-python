@@ -1,76 +1,54 @@
-from challenges import animate
-from challenges import tree
+# menu.py - function style menu
+# Imports typically listed at top
+# each import enables us to use logic that has been abstracted to other files and folders
+import keypad
+import swap
+import pattern
+import tree
+
 
 # Main list of [Prompts, Actions]
 # Two styles are supported to execute abstracted logic
 # 1. file names will be run by exec(open("filename.py").read())
 # 2. function references will be executed directly file.function()
 main_menu = [
-  ["Swap", "swap.py"],
-  ["Matrix", "matrix.py"],
+    ["Swap", swap.test_swapNum],
+    ["Keypad", keypad.format_tester],
+    ["Tree", tree.treefunc]
 ]
 
 # Submenu list of [Prompt, Action]
 # Works similarly to main_menu
-sub_menu = [
-  ["Christmas Tree", tree.main],
-  ["Animation", animate.main]
+patterns_sub_menu = [
+    ["Pattern", pattern.patternfunc],
 ]
 
-patterns_sub_menu = [
-]
 
 # Menu banner is typically defined by menu owner
 border = "=" * 25
 banner = f"\n{border}\nPlease Select An Option\n{border}"
 
-
-def menuc():
-    title = "Class Menu" + banner
-    menu_list = main_menu.copy()
-    menu_list.append(["Math", submenuc])
-    menu_list.append(["Patterns", patterns_submenuc])
-    m = questy.Menu(title, menu_list)
-    m.menu()  # method and data reside in object
-
-
-# def submenuc
-# using sub_menu list:
-# submenuc works similarly to menuc
-def submenuc():
-    title = "Class Submenu" + banner
-    m = questy.Menu(title, sub_menu)
-    m.menu()
-
-# def patterns_submenuc
-# using patterns_sub_menu list:
-# patterns_submenuc works similarly to menuc
-def patterns_submenuc():
-    title = "Class Submenu" + banner
-    m = questy.Menu(title, patterns_sub_menu)
-    m.menu()
-
-
 # def menu
 # using main_menu list:
 # 1. main menu and submenu reference are created [Prompts, Actions]
 # 2. menu_list is sent as parameter to menuy.menu function that has logic for menu control
+
+
 def menu():
     title = "Function Menu" + banner
     menu_list = main_menu.copy()
-    menu_list.append(["Other", submenu])
-    # menu_list.append(["Patterns", patterns_submenu])
+    menu_list.append(["Pattern", patterns_submenu])
     buildMenu(title, menu_list)
 
 # def submenu
 # using sub menu list above:
 # sub_menu works similarly to menu()
-def submenu():
-    title = "Function Submenu" + banner
-    buildMenu(title, sub_menu)
+
+
 def patterns_submenu():
     title = "Function Submenu" + banner
     buildMenu(title, patterns_sub_menu)
+
 
 def buildMenu(banner, options):
     # header for menu
@@ -120,4 +98,3 @@ def buildMenu(banner, options):
 
 if __name__ == "__main__":
     menu()
-    #menuc()

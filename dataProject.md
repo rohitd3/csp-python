@@ -2,10 +2,6 @@
 
 # Data Structures Project
 
-### Replit
-
-{% include replitembed.html %}
-
 
 # Code Snippet
 Menu:
@@ -34,3 +30,8 @@ def build_tree(height):
     i = i + 1
   print(" " * (height - 2) + "{}{}{}")
 ```
+
+### Replit
+
+{% include replitembed.html %}
+

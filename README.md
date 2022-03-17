@@ -8,7 +8,7 @@ Repository for Rohit De Tri 3
 
 - [Link to REPL](https://replit.com/@rohittde/rohit-csp3-algo)
 - [Link to GitHub Pages](https://rohitd3.github.io/rohit-csp3-algo/)
-- [Individual Repository](https://rohitd3.github.io/rohit-csp3-algo/)
+- [Individual Repository](https://github.com/rohitd3/rohit-csp3-algo)
 - [Team Repository](https://github.com/aaditgupta21/koolskool)
 
 ## Time Box

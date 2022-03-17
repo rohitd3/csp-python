@@ -13,7 +13,7 @@ Repository for Rohit De Tri 3
 
 ## Time Box
 
-### Week 0 - [Review Ticket](https://github.com/rohitd3/rohit-csp3-algo/projects/1#card-79117340)
+### Week 0 - [Review Ticket](https://github.com/rohitd3/rohit-csp3-algo/issues/1)
 
 - [TT0 - Python Menu](https://replit.com/@rohittde/rohit-csp3-algo#python/menu.py) 
 

@@ -1,4 +1,4 @@
-
+{% include navbar.html %}
 ## 5.1 Actions
 
 1.

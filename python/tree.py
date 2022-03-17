@@ -4,7 +4,7 @@ def build_tree(height):
     print(" " * (height - i) + "* " * i)
     #creates the spacing before each star
     i = i + 1
-  print(" " * (height - 2) + "{}{}{}")
+  print(" " * (height - 2) + "|||")
     
 
 def treefunc():

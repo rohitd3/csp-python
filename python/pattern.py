@@ -11,7 +11,7 @@ COLOR = u"\u001B[31m\u001B[2D"
 
 
 def pattern_print(position):
-    # print(ANSI_HOME_CURSOR)
+    print(ANSI_HOME_CURSOR)
     sp = " " * position
     print(COLOR)
     print(sp + "           __________                               ")

@@ -1,6 +1,6 @@
-https://rohitd3.github.io/rohit-csp3-algo/
+<!-- https://rohitd3.github.io/rohit-csp3-algo/
 
-https://replit.com/@rohittde
+https://replit.com/@rohittde -->
 
 
 {% include navbar.html %}

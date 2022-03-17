@@ -17,3 +17,5 @@ Repository for Rohit De Tri 3
 
 - [TT0 - Python Menu](https://replit.com/@rohittde/rohit-csp3-algo#python/menu.py) 
 
+- [5.1 Notes + Actions](https://rohitd3.github.io/rohit-csp3-algo/notes/5_1notes)
+- [5.2 Notes + Actions](https://rohitd3.github.io/rohit-csp3-algo/notes/5_2notes)

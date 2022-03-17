@@ -16,4 +16,4 @@ Repository for Rohit De Tri 3
 ### Week 0 - [Review Ticket](https://github.com/rohitd3/rohit-csp3-algo/projects/1#card-79117340)
 
 - [TT0 - Python Menu](https://replit.com/@rohittde/rohit-csp3-algo#python/menu.py) 
-<!-- - [5.1-5.2 Notes](https://jasono12.github.io/jasonott-csp3/notes/5idea12) -->
+

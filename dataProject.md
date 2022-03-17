@@ -7,7 +7,7 @@
 {% include replitembed.html %}
 
 
-## Code Snippet
+# Code Snippet
 Menu:
 ```
 main_menu = [

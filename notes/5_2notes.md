@@ -1,3 +1,5 @@
+{% include navbar.html %}
+
 ## 5.2 Actions
 
 1. To empower yourself in the digital world, one must be willing to use technology in useful, innovative ways and also responsibly. Using their skills to solve problems and benefit others is a great example of what makes someone empowered. Being empowered in the digital world also requires someone to have access to technology and internet services, and due to the digital divide, not everyone does.

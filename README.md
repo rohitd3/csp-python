@@ -7,7 +7,7 @@ Repository for Rohit De Tri 3
 ## Rohit De's Important Links
 
 - [Link to REPL](https://replit.com/@rohittde/rohit-csp3-algo)
-- [Link to GitHub Pages](https://jasono12.github.io/jasonott-csp3/)
+- [Link to GitHub Pages](https://rohitd3.github.io/rohit-csp3-algo/)
 - [Individual Repository](https://rohitd3.github.io/rohit-csp3-algo/)
 - [Team Repository](https://github.com/aaditgupta21/koolskool)
 

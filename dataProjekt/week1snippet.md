@@ -2,7 +2,7 @@
 
 
 Fibonacci Sequence
-```
+```py
 def fib_recur(n):
   # intial 1, 1 in the fibonacci sequence
   fib_prev = 1
@@ -30,7 +30,7 @@ if __name__ == "__main__":
 ```
 Different types of loops
 
-```
+```py
 # for loop iterates on length of InfoDb
 def for_loop():
     for n in range(len(InfoDb)):
@@ -54,7 +54,7 @@ def recursive_loop(n):
 ```
 
 Having a little fun with the for loop
-```
+```py
 # limiting the range of items to be printed
 def for_loop_limit(start, end):
     for n in range(start, end+1):

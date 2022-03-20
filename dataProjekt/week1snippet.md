@@ -1,5 +1,6 @@
-# Code Snippet
+{% include navbar.html %}
 
+# Code Snippet Week 1
 
 Fibonacci Sequence
 ```py

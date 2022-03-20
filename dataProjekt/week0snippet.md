@@ -1,4 +1,7 @@
+{% include navbar.html %}
+
 # Code Snippet
+
 Menu:
 ```py
 main_menu = [

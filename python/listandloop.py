@@ -42,6 +42,8 @@ def print_data(n):
 
 
 def tester():
+    print("for_loop_limit:")
+    for_loop_limit(1,2)
     print("For loop")
     for_loop()
     print("While loop")
@@ -55,7 +57,10 @@ def for_loop():
     for n in range(len(InfoDb)):
         print_data(n)
 
-
+def for_loop_limit(start, end):
+    for n in range(start, end+1):
+        print_data(n)
+      
 # while loop contains an initial n and an index incrementing statement (n += 1)
 # dont need to write n = 0 because it being called in the tester
 def while_loop(n):
@@ -63,6 +68,13 @@ def while_loop(n):
         print_data(n)
         n += 1
     return
+
+# def while_loop_3():
+#   n = 0
+#   while n < 2:
+#     print_data(n)
+#     n += 1
+#   return
 
 
 # recursion simulates loop incrementing on each call (n + 1) until exit condition is met
@@ -72,4 +84,5 @@ def recursive_loop(n):
         recursive_loop(n + 1)
     return # exit condition
 
-tester()
+if __name__ == "__main__":
+  tester()

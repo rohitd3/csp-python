@@ -1,11 +1,12 @@
 # menu.py - function style menu
 # Imports typically listed at top
 # each import enables us to use logic that has been abstracted to other files and folders
-import americanflag
 import keypad
 import swap
 import pattern
 import tree
+import listandloop
+import clear
 
 
 # Main list of [Prompts, Actions]
@@ -17,6 +18,7 @@ main_menu = [
     ["Keypad", keypad.format_tester],
     ["Tree", tree.treefunc],
     ["Pattern", pattern.patternfunc],
+    ["Movie List and Loop", listandloop.tester],
 ]
 
 # Submenu list of [Prompt, Action]
@@ -48,6 +50,7 @@ def menu():
 
 def buildMenu(banner, options):
     # header for menu
+    
     print(banner)
     # build a dictionary from options
     prompts = {0: ["Exit", None]}
@@ -61,6 +64,7 @@ def buildMenu(banner, options):
 
     # get user choice
     choice = input("Type your choice> ")
+    clear.clearConsole()
 
     # validate choice and run
     # execute selection

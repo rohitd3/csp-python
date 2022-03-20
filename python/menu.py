@@ -7,6 +7,7 @@ import pattern
 import tree
 import listandloop
 import clear
+import fibonacci
 
 
 # Main list of [Prompts, Actions]
@@ -19,6 +20,7 @@ main_menu = [
     ["Tree", tree.treefunc],
     ["Pattern", pattern.patternfunc],
     ["Movie List and Loop", listandloop.tester],
+    ["Fibonacci", fibonacci.fibinput],
 ]
 
 # Submenu list of [Prompt, Action]

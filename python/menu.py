@@ -13,7 +13,6 @@ import tree
 # 1. file names will be run by exec(open("filename.py").read())
 # 2. function references will be executed directly file.function()
 main_menu = [
-    ["American Flag", americanflag.flagfunc],
     ["Swap", swap.test_swapNum],
     ["Keypad", keypad.format_tester],
     ["Tree", tree.treefunc],

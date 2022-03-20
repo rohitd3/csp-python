@@ -1,6 +1,6 @@
 {% include navbar.html %}
 
-# rohit-csp3-algo
+# rohit-csp3
 Repository for Rohit De Tri 3
 
 

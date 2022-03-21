@@ -13,9 +13,16 @@ Repository for Rohit De Tri 3
 
 ## Time Box
 
-### Week 0 - [Review Ticket](https://github.com/rohitd3/rohit-csp3-algo/issues/1)
+### Week 0 - [Review Ticket](https://github.com/rohitd3/rohit-csp3/issues/1)
 
 - [TT0 - Python Menu](https://replit.com/@rohittde/rohit-csp3#python/menu.py) 
 
 - [5.1 Notes + Actions](https://rohitd3.github.io/rohit-csp3/notes/5_1notes)
 - [5.2 Notes + Actions](https://rohitd3.github.io/rohit-csp3/notes/5_2notes)
+
+### Week 1 - [Review Ticket](https://github.com/rohitd3/rohit-csp3/issues/2)
+
+- [TT1 - Python List and Loop](https://replit.com/@rohittde/rohit-csp3#python/listandloop.py) 
+
+- [5.3 Notes + Actions](https://rohitd3.github.io/rohit-csp3/notes/5_3notes)
+- [5.4 Notes + Actions](https://rohitd3.github.io/rohit-csp3/notes/5_4notes)

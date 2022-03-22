@@ -1,5 +1,5 @@
 def fib_recur(n):
-  fib_prev = 1
+  fib_prev = 0
   print(fib_prev)
   fib = 1
   print(fib)

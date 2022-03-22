@@ -42,7 +42,7 @@ def print_data(n):
 
 
 def tester():
-    print("for_loop_limit:")
+    print("For loop with range:")
     for_loop_limit(1,2)
     print("For loop")
     for_loop()

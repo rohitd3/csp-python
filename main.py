@@ -1,13 +1,13 @@
 # menu.py - function style menu
 # Imports typically listed at top
 # each import enables us to use logic that has been abstracted to other files and folders
-import keypad
-import swap
-import pattern
-import tree
-import listandloop
-import clear
-import fibonacci
+import python.week0.keypad as keypad
+import python.week0.swap as swap
+import python.week0.pattern as pattern
+import python.week0.tree as tree
+import python.week0.listandloop as listandloop
+import python.week1.clear as clear
+import python.week1.fibonacci as fibonacci
 
 
 # Main list of [Prompts, Actions]

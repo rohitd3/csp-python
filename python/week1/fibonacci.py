@@ -15,7 +15,7 @@ def fib_recur(n):
 
 
 def fibinput():
-  fib_inp = int(input("Enter fibonacci index: "))
+  fib_inp = int(input("Enter # of fibonacci terms: "))
   fib_recur(fib_inp)
 
 if __name__ == "__main__":

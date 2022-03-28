@@ -26,3 +26,10 @@ Repository for Rohit De Tri 3
 
 - [5.3 Notes + Actions](https://rohitd3.github.io/rohit-csp3/notes/5_3notes)
 - [5.4 Notes + Actions](https://rohitd3.github.io/rohit-csp3/notes/5_4notes)
+
+### Week 2 - [Review Ticket](https://github.com/rohitd3/rohit-csp3/issues/2)
+
+- [TT2 - Python Classy Functions](https://replit.com/@rohittde/rohit-csp3#python/week2/factorial.py) 
+
+- [5.5 Notes + Actions](https://rohitd3.github.io/rohit-csp3/notes/5_5notes)
+- [5.6 Notes + Actions](https://rohitd3.github.io/rohit-csp3/notes/5_6notes)

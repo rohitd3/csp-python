@@ -8,7 +8,8 @@ import python.week0.tree as tree
 import python.week1.listandloop as listandloop
 import python.week1.clear as clear
 import python.week1.fibonacci as fibonacci
-
+import python.week2.factorial as factorial
+import python.week2.mathfunc as mathfunc
 
 # Main list of [Prompts, Actions]
 # Two styles are supported to execute abstracted logic
@@ -21,6 +22,8 @@ main_menu = [
     ["Pattern", pattern.patternfunc],
     ["Movie List and Loop", listandloop.tester],
     ["Fibonacci", fibonacci.fibinput],
+    ["Factorial", factorial.main],
+    ["Math Func", mathfunc.main],
 ]
 
 # Submenu list of [Prompt, Action]

@@ -1,20 +1,21 @@
-class mathfunc():
-
-# Function to find a range of primes
-
-def findprimes(min, max):
-    for Number in range(min, max + 1):
-        count = 0
-        for i in range(2, (Number // 2 + 1)):
-            if (Number % i == 0):
-                count = count + 1
-                break
-        if (count == 0 and Number != 1):
-            print(" %d" % Number, end='  ')
-    print()
-
-
-def primes():
-    minimum = int(input(" Enter the Minimum Value for Primes: "))
-    maximum = int(input(" Enter the Maximum Value for Primes: "))
-    findprimes(minimum, maximum)
+class GCD:
+  def __init__(self):
+        self.factor = [0, 1]
+  def __call__(self, num1, num2):
+      if num1 == 0:
+          return num1
+      while num2 != 0:
+          if num1 > num2:
+              num1 = num1 - num2
+          else:
+              num2 = num2 - num1
+      return num1
+def main():
+    findgcd = GCD()
+    a = int(input(" Enter the First Value for GCD: "))
+    b = int(input(" Enter the Second Value for GCD: "))
+    gcd = findgcd(a, b)
+    print("\n GCD of {0} and {1} is: {2}".format(a, b, gcd))
+  
+if __name__ == "__main__":
+  main()

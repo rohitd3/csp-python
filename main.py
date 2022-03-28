@@ -10,27 +10,36 @@ import python.week1.clear as clear
 import python.week1.fibonacci as fibonacci
 import python.week2.factorial as factorial
 import python.week2.mathfunc as mathfunc
+import python.week2.palindrome as palindrome 
 
 # Main list of [Prompts, Actions]
 # Two styles are supported to execute abstracted logic
 # 1. file names will be run by exec(open("filename.py").read())
 # 2. function references will be executed directly file.function()
-main_menu = [
-    ["Swap", swap.test_swapNum],
-    ["Keypad", keypad.format_tester],
-    ["Tree", tree.treefunc],
-    ["Pattern", pattern.patternfunc],
-    ["Movie List and Loop", listandloop.tester],
-    ["Fibonacci", fibonacci.fibinput],
-    ["Factorial", factorial.main],
-    ["Math Func", mathfunc.main],
-]
+main_menu = []
+
 
 # Submenu list of [Prompt, Action]
 # Works similarly to main_menu
-# patterns_sub_menu = [
-#     ["Pattern", pattern.patternfunc],
-# ]
+data_menu = [
+    ["Movie List and Loop", listandloop.tester],
+
+]
+
+
+adventure_sub_menu = [
+    ["Pattern", pattern.patternfunc],
+    ["Swap", swap.test_swapNum],
+    ["Keypad", keypad.format_tester],
+    ["Tree", tree.treefunc]
+]
+
+math_menu = [
+    ["Fibonacci", fibonacci.fibinput],
+    ["Factorial", factorial.main],
+    ["Math Func", mathfunc.main],
+    ["Palindrome", palindrome.tester],
+]
 
 
 # Menu banner is typically defined by menu owner
@@ -46,8 +55,24 @@ banner = f"\n{border}\nPlease Select An Option\n{border}"
 def menu():
     title = "Function Menu" + banner
     menu_list = main_menu.copy()
-    # menu_list.append(["Pattern", patterns_submenu])
+    menu_list.append(["data", data_submenu])
+    menu_list.append(["Math", math_submenu])
+    menu_list.append(["adventure", adventure_submenu ])
     buildMenu(title, menu_list)
+
+def data_submenu():
+    title = "Function Submenu" + banner
+    buildMenu(title, data_menu)
+
+def math_submenu():
+    title = "Function Submenu" + banner
+    buildMenu(title, math_menu)
+
+def adventure_submenu():
+    title = "Function Submenu" + banner
+    buildMenu(title, adventure_sub_menu)
+
+  
 
 # def submenu
 # using sub menu list above:

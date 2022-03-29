@@ -52,10 +52,18 @@ python-versions = "*"
 [package.dependencies]
 codegen = "*"
 
+[[package]]
+name = "pyglet"
+version = "1.5.23"
+description = "Cross-platform windowing and multimedia library"
+category = "main"
+optional = false
+python-versions = "*"
+
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "54d8eac5042b7255eaa990f3483ae6aa40cff4be10864bcb27462ab95e73415c"
+content-hash = "f81ae17f5ba24676697d5d2731c5a19eaab8b7fb3000e1ee6d85473614afcffc"
 
 [metadata.files]
 challenges = [
@@ -94,4 +102,8 @@ numpy = [
 ]
 patterns = [
     {file = "patterns-0.3.tar.gz", hash = "sha256:af8144d8993253661fd3d67d52d84d2f4c5ab77c873b17e7c79dd096e04a3049"},
+]
+pyglet = [
+    {file = "pyglet-1.5.23-py3-none-any.whl", hash = "sha256:086317c022612bf0aa28f32134a8cbe3d11de96787f5412d38d9c6abb6cfc771"},
+    {file = "pyglet-1.5.23.zip", hash = "sha256:dee920203cf306159c503babb62f38787268708977f5c945d28337594b797c46"},
 ]

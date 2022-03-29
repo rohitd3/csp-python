@@ -10,6 +10,7 @@ patterns = "^0.3"
 listy = "^1.0.0"
 mathpy = "^0.3.0"
 challenges = "^1.4.0"
+pyglet = "^1.5.23"
 
 [tool.poetry.dev-dependencies]
 

@@ -11,7 +11,7 @@ import python.week1.fibonacci as fibonacci
 import python.week2.factorial as factorial
 import python.week2.mathfunc as mathfunc
 import python.week2.palindrome as palindrome 
-
+import python.week2.animate as animate
 # Main list of [Prompts, Actions]
 # Two styles are supported to execute abstracted logic
 # 1. file names will be run by exec(open("filename.py").read())
@@ -31,7 +31,9 @@ adventure_sub_menu = [
     ["\u001b[35mPattern \u001b[37m", pattern.patternfunc],
     ["\u001b[35mSwap \u001b[37m", swap.test_swapNum],
     ["\u001b[35mKeybad \u001b[37m", keypad.format_tester],
-    ["\u001b[35mTree \u001b[37m", tree.treefunc]
+    ["\u001b[35mTree \u001b[37m", tree.treefunc],
+    ["\u001b[35mAnimation... \u001b[37m", animate.main]
+
 ]
 
 math_menu = [

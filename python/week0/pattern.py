@@ -5,7 +5,7 @@ ANSI_CLEAR_SCREEN = u"\u001B[2J"
 ANSI_HOME_CURSOR = u"\u001B[0;0H\u001B[2"
 OCEAN_COLOR = u"\u001B[44m\u001B[2D"
 COLOR = u"\u001B[31m\u001B[2D"
-
+RESET_COLOR = u"\u001B[0m\u001B[2D"
 
 # print ship with colors and leading spaces
 
@@ -14,11 +14,11 @@ def pattern_print(position):
     print(ANSI_HOME_CURSOR)
     sp = " " * position
     print(COLOR)
-    print(sp + "           __________                               ")
-    print(sp + "         .'----------`.                             ")
-    print(sp + "         | .--------. |                             ")
-    print(sp + "         | |########| |       __________              ")
-    print(sp + "         | |########| |      /__________\             ")
+    print(sp + "           __________                                  ")
+    print(sp + "         .'----------`.                                ")
+    print(sp + "         | .--------. |                                ")
+    print(sp + "         | |########| |       __________               ")
+    print(sp + "         | |########| |      /__________\              ")
     print(sp + ".--------| `--------' |------|    --=-- |-------------.")
     print(sp + "|        `----,-.-----'      |o ======  |             |")
     print(sp + "|       ______|_|_______     |__________|             |")
@@ -27,6 +27,8 @@ def pattern_print(position):
     print(sp + "|     ^^^^^^^^^^^^^^^^^^^^                            |")
     print(sp + "+-----------------------------------------------------+")
     print(sp + "^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^")
+    print(RESET_COLOR)
+
     
 
   

@@ -22,23 +22,23 @@ main_menu = []
 # Submenu list of [Prompt, Action]
 # Works similarly to main_menu
 data_menu = [
-    ["Movie List and Loop", listandloop.tester],
+    ["\u001b[32mMovie List/Loop \u001b[37m", listandloop.tester],
 
 ]
 
 
 adventure_sub_menu = [
-    ["Pattern", pattern.patternfunc],
-    ["Swap", swap.test_swapNum],
-    ["Keypad", keypad.format_tester],
-    ["Tree", tree.treefunc]
+    ["\u001b[35mPattern \u001b[37m", pattern.patternfunc],
+    ["\u001b[35mSwap \u001b[37m", swap.test_swapNum],
+    ["\u001b[35mKeybad \u001b[37m", keypad.format_tester],
+    ["\u001b[35mTree \u001b[37m", tree.treefunc]
 ]
 
 math_menu = [
-    ["Fibonacci", fibonacci.fibinput],
-    ["Factorial", factorial.main],
-    ["Math Func", mathfunc.main],
-    ["Palindrome", palindrome.tester],
+    ["\u001b[34mFibonacci \u001b[37m", fibonacci.fibinput],
+    ["\u001b[34mFactorail \u001b[37m", factorial.main],
+    ["\u001b[34mMath Func \u001b[37m", mathfunc.main],
+    ["\u001b[34mPalindrome \u001b[37m", palindrome.tester],
 ]
 
 
@@ -55,9 +55,9 @@ banner = f"\n{border}\nPlease Select An Option\n{border}"
 def menu():
     title = "Function Menu" + banner
     menu_list = main_menu.copy()
-    menu_list.append(["data", data_submenu])
-    menu_list.append(["Math", math_submenu])
-    menu_list.append(["adventure", adventure_submenu ])
+    menu_list.append(["\u001b[32mData \u001b[37m", data_submenu])
+    menu_list.append(["\u001b[34mMath \u001b[37m", math_submenu])
+    menu_list.append(["\u001b[35mAdventure \u001b[37m", adventure_submenu ])
     buildMenu(title, menu_list)
 
 def data_submenu():

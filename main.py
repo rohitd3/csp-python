@@ -12,6 +12,8 @@ import python.week2.factorial as factorial
 import python.week2.mathfunc as mathfunc
 import python.week2.palindrome as palindrome 
 import python.week2.tic as tic
+import python.week2.guess as guess
+
 # Main list of [Prompts, Actions]
 # Two styles are supported to execute abstracted logic
 # 1. file names will be run by exec(open("filename.py").read())
@@ -41,6 +43,8 @@ math_menu = [
     ["\u001b[34mFactorail \u001b[37m", factorial.main],
     ["\u001b[34mMath Func \u001b[37m", mathfunc.main],
     ["\u001b[34mPalindrome \u001b[37m", palindrome.tester],
+    ["\u001b[34mGuessNum \u001b[37m", guess.main]
+
 ]
 
 

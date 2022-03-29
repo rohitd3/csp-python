@@ -33,3 +33,26 @@ class GCD:
               num2 = num2 - num1
       return num1
 ```
+
+Sub menus
+```py
+def menu():
+    title = "Function Menu" + banner
+    menu_list = main_menu.copy()
+    menu_list.append(["data", data_submenu])
+    menu_list.append(["Math", math_submenu])
+    menu_list.append(["adventure", adventure_submenu ])
+    buildMenu(title, menu_list)
+
+def data_submenu():
+    title = "Function Submenu" + banner
+    buildMenu(title, data_menu)
+
+def math_submenu():
+    title = "Function Submenu" + banner
+    buildMenu(title, math_menu)
+
+def adventure_submenu():
+    title = "Function Submenu" + banner
+    buildMenu(title, adventure_sub_menu)
+```

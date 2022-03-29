@@ -3,7 +3,6 @@
 # rohit-csp3
 Repository for Rohit De Tri 3
 
-
 ## Rohit De's Important Links
 
 - [Link to REPL](https://replit.com/@rohittde/rohit-csp3)

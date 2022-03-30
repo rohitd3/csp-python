@@ -44,7 +44,6 @@ math_menu = [
     ["\u001b[34mMath Func \u001b[37m", mathfunc.main],
     ["\u001b[34mPalindrome \u001b[37m", palindrome.tester],
     ["\u001b[34mGuessNum \u001b[37m", guess.main]
-
 ]
 
 

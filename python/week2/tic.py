@@ -96,7 +96,8 @@ class TicTacToe:
             row, col = list(
                 map(int, input("Enter row and column numbers to fix spot: ").split()))
             print()
-
+            
+          
             # fixing the spot
             self.fix_spot(row - 1, col - 1, player)
 

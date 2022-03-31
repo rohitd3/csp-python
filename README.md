@@ -11,14 +11,12 @@ Repository for Rohit De Tri 3
 - [Team Repository](https://github.com/aaditgupta21/koolskool)
 
 ## Time Box
-<details>
-<summary>Week 0 - <a href="https://github.com/rohitd3/rohit-csp3/issues/1">Review Ticket</summary>
+<details><summary>Week 0 - <a href="https://github.com/rohitd3/rohit-csp3/issues/1">Review Ticket</summary>
   <a href="https://replit.com/@rohittde/rohit-csp3#python/menu.py">TT0 - Python Menu</a>
   <br>
   <a href="https://rohitd3.github.io/rohit-csp3/notes/5_1notes">5.1 Notes + Actions</a>
   <br>
-  <a href="https://rohitd3.github.io/rohit-csp3/notes/5_2notes">5.2 Notes + Actions</a>
-</details>
+  <a href="https://rohitd3.github.io/rohit-csp3/notes/5_2notes">5.2 Notes + Actions</a></details>
 
 <details>
 <summary>Week 1 - <a href="https://github.com/rohitd3/rohit-csp3/issues/2">Review Ticket</summary>

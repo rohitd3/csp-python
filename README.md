@@ -5,12 +5,12 @@ Repository for Rohit De Tri 3
 
 ## Rohit De's Important Links
 
-- [Link to REPL](https://replit.com/@rohittde/rohit-csp3)
+- [Link to REPL](https://replit.com/@rohittde/rohit-csp3) 
 - [Link to GitHub Pages](https://rohitd3.github.io/rohit-csp3/)
 - [Individual Repository](https://github.com/rohitd3/rohit-csp3)
 - [Team Repository](https://github.com/aaditgupta21/koolskool)
 
-## Time Box
+## Time Box (this is a drop down so click on the week #)
 <details><summary>Week 0 - <a href="https://github.com/rohitd3/rohit-csp3/issues/1">Review Ticket</a></summary>
   <a href="https://replit.com/@rohittde/rohit-csp3#python/menu.py">TT0 - Python Menu</a>
   <br>

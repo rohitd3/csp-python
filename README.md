@@ -35,3 +35,10 @@ Repository for Rohit De Tri 3
   <br>
   <a href="https://rohitd3.github.io/rohit-csp3/notes/5_6notes">5.6 Notes + Actions</a>
 </details>
+
+<details>
+<summary>Week 3 - <a href="https://github.com/rohitd3/rohit-csp3/issues/4">Review Ticket</a></summary>
+  <a href="https://www.loom.com/share/3ceee80a5711422485707b6853e4d0f6">Video Link</a>
+</details>
+
+

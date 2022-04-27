@@ -41,4 +41,15 @@ Repository for Rohit De Tri 3
   <a href="https://www.loom.com/share/3ceee80a5711422485707b6853e4d0f6">Video Link</a>
 </details>
 
+<details>
+<summary>Week 4 - <a href="https://github.com/rohitd3/rohit-csp3/issues/5">Review Ticket</a></summary>
+</details>
 
+<details>
+<summary>Week 5 - <a href="https://github.com/rohitd3/rohit-csp3/issues/6">Review Ticket</a></summary>
+</details>
+
+<details>
+<summary>Week 6 - <a href="https://github.com/rohitd3/rohit-csp3/issues/7">Review Ticket</a></summary>
+  <br>
+</details>

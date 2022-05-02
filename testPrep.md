@@ -24,4 +24,4 @@
 
 ## Week 6
 
-- [Test Corrections](https://rohitd3.github.io/rohit-csp3/notes/quiz1)
+- [Test Corrections](https://rohitd3.github.io/rohit-csp3/notes/quiz2)

@@ -16,3 +16,12 @@
 
 - [5.5 Notes + Actions](https://rohitd3.github.io/rohit-csp3/notes/5_5notes)
 - [5.6 Notes + Actions](https://rohitd3.github.io/rohit-csp3/notes/5_6notes)
+
+## Week 5
+
+
+- [Test Corrections](https://rohitd3.github.io/rohit-csp3/notes/quiz1)
+
+## Week 6
+
+- [Test Corrections](https://rohitd3.github.io/rohit-csp3/notes/quiz1)

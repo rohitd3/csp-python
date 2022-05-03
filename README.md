@@ -53,3 +53,9 @@ Repository for Rohit De Tri 3
 <summary>Week 6 - <a href="https://github.com/rohitd3/rohit-csp3/issues/7">Review Ticket</a></summary>
   <br>
 </details>
+
+
+<details>
+<summary>Week 7 - <a href="https://github.com/rohitd3/rohit-csp3/issues/8">Review Ticket</a></summary>
+  <br>
+</details>
